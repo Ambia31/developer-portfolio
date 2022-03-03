@@ -5,8 +5,29 @@ body{
 .yel{
     color:rgb(229, 255, 0);
 }
-section{
+.flex-con{
     display:flex;
+}
+section{
+
+}
+.experiance{
+
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: ;
+}
+.half-width{
+    width:50%;
+    margin:10px 40px;
+    border-left:5px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+
+    box-shadow: 10px 20px 50px gray;
+}
+.in{
+    margin:20px;
 }
 .hfwidth{
     width: 50%;
@@ -15,6 +36,11 @@ section{
 img{
     padding: 1%;
     width: 70%;
+}
+#d{
+    border-left:5px solid blue;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .link-button{
     padding: 10px 40px;
